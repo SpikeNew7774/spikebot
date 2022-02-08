@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+#clm {
+    background: rgb(144, 250, 245);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 10px;
+}
+* {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+#reload {
+    border: none;
+    background: lightskyblue;
+    padding: 8px;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+#bot{
+    border-radius: 12px;
+    margin-left: 3px;
+}
