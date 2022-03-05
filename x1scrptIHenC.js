@@ -12,5 +12,4 @@ document.getElementById('clm').addEventListener('click', (ev) => {
 reload.onclick = function reload() {
   document.querySelector("#reloading").style.display = "block";
   window.location.reload()
-  window.location.replace("?reload")
 }
