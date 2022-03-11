@@ -6,10 +6,15 @@
     border-radius: 12px;
     padding: 10px;
     margin-top: 10px;
+    border: 2.5px solid rgb(144, 250, 245);
+    transition-property: all;
+    transition: 235ms ease;
 }
 #clm:hover,
 #clm:active {
-    background: rgb(118, 204, 200);
+    background: rgb(122, 181, 204);
+    color: white;
+    border: 2.5px solid rgb(122, 181, 204);
 }
 
 * {
@@ -17,6 +22,10 @@
     text-decoration: none;
     color: black;
     font-family: 'Open Sans', sans-serif;
+    cursor: default;
+}
+*:active {
+    cursor: not-allowed;
 }
 #reload {
     border: none;
@@ -26,13 +35,19 @@
     cursor: pointer;
     border-radius: 12px;
     margin-top: 10px;
+    border: 2.5px solid lightskyblue;
+    transition-property: all;
+    transition: 235ms ease;
 }
-#reload:hover
+#reload:hover,
 #reload:active {
-    background: cyan;
+    background: rgb(2, 67, 206);
+    color: white;
+    border: 2.5px solid rgb(2, 67, 206);
 }
 
-#bot{
-    border-radius: 12px;
-    margin-left: 3px;
+#bot:active {
+    width: 300px;
+    height: 300px;
+    margin-bottom: -100px;
 }
