@@ -7,6 +7,11 @@
     padding: 10px;
     margin-top: 10px;
 }
+#clm:hover,
+#clm:active {
+    background: rgb(118, 204, 200);
+}
+
 * {
     text-align: center;
     text-decoration: none;
@@ -22,6 +27,11 @@
     border-radius: 12px;
     margin-top: 10px;
 }
+#reload:hover
+#reload:active {
+    background: cyan;
+}
+
 #bot{
     border-radius: 12px;
     margin-left: 3px;
