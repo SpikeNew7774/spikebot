@@ -46,7 +46,8 @@
     border: 2.5px solid rgb(2, 67, 206);
 }
 
-#bot:active {
+#bot:hover,
+#bot:acive {
     width: 300px;
     height: 300px;
     margin-bottom: -100px;
