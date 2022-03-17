@@ -47,7 +47,7 @@
 }
 
 #bot:hover,
-#bot:acive {
+#bot:active {
     width: 300px;
     height: 300px;
     margin-bottom: -100px;
