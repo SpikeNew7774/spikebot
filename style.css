@@ -149,3 +149,7 @@
     opacity: 1;
     pointer-events: none;
   }
+.lang a,
+.lang {
+    text-decoration: all;
+}
