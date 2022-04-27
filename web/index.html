@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sk">
+    <script type="text/javascript">
+        document.addEventListener("contextmenu" ,function(htmlDInspect){
+          htmlDInspect.preventDefault();
+        });
+      </script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="photo.jpg" type="image/x-icon">
+    <title> SpikeBot Autorizovanie </title>
+</head>
+<body>
+  <div style="display: none;" id="21">
+    <h1> SpikeBot Autorizovanie </h1>
+    <p style="display: none;" id="reloading"> Reloading Site... </p>
+    <br>
+    <br>
+    <img id="bot" src="photo.jpg" alt="SpikeBot" style="clip-path: circle(); transition-property: all; transition: 300ms ease; cursor: zoom-in;" width="200" height="200"><p></p>
+    <p style="display: none;" id="ba">Bot bol Authorizovaný.<br>Ak nie, tak kliknite na Autorizovať znova</p>
+    <a id="clm">Autorizovať SpikeBot</a>
+    <br><br><br><br><br><br><br><br><br>
+    <a id="reload">Autorizovať znova</a><br><br><br><br><p></p>
+    <a href="?pageid=85" id="gaming-card">Objednať Gaming Kartu<ion-icon id="cardicon" name="id-card-outline"></ion-icon></a>
+    <p id="new">NOVINKA!</p>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="x1scrptIHenC.js"></script>
+  </div>
+  <section style="display: none;" id="85"><p></p>
+    <a id="back-gc" href="?pageid=21"><-Späť</a><p></p>
+    <iframe width="3000px" height= "862px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=3pm3VLi10ke9UsP8-tKJtSBn_3sKN5xKn6UnLjuomKdURU85OVFVMkdTQjczMDlCTjg4Vk4wN04yMC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+  </section>
+
+<script>
+  
+function getParameterByName(pageid, url = window.location.href) {
+  pageid = pageid.replace(/[\[\]]/g, '\\$&');
+  var regex = new RegExp('[?&]' + pageid + '(=([^&#]*)|&|#|$)'),
+      results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+document.getElementById(getParameterByName("pageid")).style.display = "block";
+</script>
+</body>
+
+
+</html>
